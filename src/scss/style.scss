@@ -1,0 +1,18 @@
+@import '~bulma/bulma';
+@import 'variables';
+@import 'header';
+@import 'search-form';
+
+h1.title {
+    color: $color;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.serp {
+    border: 1px solid black;
+    padding: 1rem;
+    list-style: none;
+}

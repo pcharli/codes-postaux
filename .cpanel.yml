@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cepeeatc/public_html/ingrwi28
+    - /bin/cp -R * $DEPLOYPATH

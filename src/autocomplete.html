@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title> 
+    <link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="scss/style.scss">
+</head>
+<body>
+    <div class="container content">
+        <include src="./partials/header.html" />
+        <section class="section">
+            <h2>Faire une recherche Autocomplète</h2>
+            <input type="number" class="keywords">
+            <ul class="serp list hidden">
+            </ul>
+        </section>
+        <section class="infos-ville hidden">
+            
+        </section>
+        <include src="./partials/footer.html" />
+    </div>
+    <script type="module" src="./js/autocomplete.js"></script>
+</body>
+</html>

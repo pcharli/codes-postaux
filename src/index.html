@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title> 
+    <link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="scss/style.scss">
+</head>
+<body>
+    <div class="container content">
+        <include src="./partials/header.html" />
+        <section class="section">Home page</section>
+        <div class="columns">
+            <div class="column">
+                <include src="./partials/search-form.html" />
+            </div>
+            <div class="column">
+                <include src="./partials/history-list.html" />
+            </div>
+        </div>
+        <include src="./partials/footer.html" />
+    </div>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
